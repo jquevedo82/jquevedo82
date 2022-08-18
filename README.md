@@ -3,7 +3,7 @@
 namespace JQuevedo82;
 class About extends Me
 {
-	  /* Personalinformation */ 
+    	/* Personalinformation */ 
     public function getCurrentPersonalinformation()
     {
         return [
@@ -13,11 +13,11 @@ class About extends Me
                 'nationality' => 'VEN',
                 'resident' => 'Buenos Aires. ARG',
 		'mytwitter' => '@jquevedo82',
-		'mylinkedin' => 'https://www.linkedin.com/in/jquevedo82/'
+		'mylinkedin' => 'https://www.linkedin.com/in/jquevedo82/',
             ]
         ];
     }
-  	/* Workplace */ 
+    	/* Workplace */ 
     public function getCurrentWorkplace()
     {
         return [
@@ -28,7 +28,7 @@ class About extends Me
             ]
         ];
     }
-    /* Primary skills/knowledge */
+    	/* Primary skills/knowledge */
     public function getDailyKnowledge()
     {
         return [
