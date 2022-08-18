@@ -1,16 +1,50 @@
-### Hi there 👋
+```php
+<?php
+namespace JQuevedo82;
+class About extends Me
+{
+	  /* Personalinformation */ 
+    public function getCurrentPersonalinformation()
+    {
+        return [
+            'personalinformation' => [
+                'name' => 'Jose G. Quevedo C.',
+                'title' => 'Ingeniero en Informatica',
+                'nationality' => 'VEN',
+                'resident' => 'Buenos Aires. ARG',
+            ]
+        ];
+    }
+  	/* Workplace */ 
+    public function getCurrentWorkplace()
+    {
+        return [
+            'workplace' => [
+                'company' => 'NEUMEN',
+                'pageWeb' => 'https://autoneumen.com/neumen/'
+                'position' => 'Full Stack Developer'      
+            ]
+        ];
+    }
+    /* Primary skills/knowledge */
+    public function getDailyKnowledge()
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            Angular::class,
+            NodoJs::class,
+            NestJs::class,
+            Mysql::Class
+        ];
+    }
+	
+	/* Relevant goal */
+    public function getFutureGoal()
+    {
+        return 'To contribute to open source.';
+    }
+}
+```
 
-<!--
-**jquevedo82/jquevedo82** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
