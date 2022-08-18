@@ -22,7 +22,7 @@ class About extends Me
             'workplace' => [
                 'company' => 'NEUMEN',
                 'pageWeb' => 'https://autoneumen.com/neumen/',
-                'position' => 'Full Stack Developer'      
+                'position' => 'Full Stack Developer',    
             ]
         ];
     }
@@ -36,7 +36,7 @@ class About extends Me
             Angular::class,
             NodoJs::class,
             NestJs::class,
-            Mysql::Class,
+            Mysql::class,
         ];
     }
 	
