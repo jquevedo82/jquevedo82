@@ -1,44 +1,48 @@
 ```php
 <?php
+
 namespace JQuevedo82;
+
 class About extends Me
 {
-    	/* Personalinformation */ 
-    public function getCurrentPersonalinformation()
+    /* Personal information */ 
+    public function getCurrentPersonalInformation(): array
     {
         return [
-            'personalinformation' => [
+            'personal_information' => [
                 'name' => 'Jose G. Quevedo C.',
-                'title' => 'Ingeniero en Informatica',
+                'title' => 'Ingeniero en Informática',
                 'nationality' => 'VEN',
-                'resident' => 'Buenos Aires. ARG',
+                'current_residence' => 'Buenos Aires. ARG',
             ],
-	    'contacinformation' => [
-		'mytwitter' => '@jquevedo82',
-		'mylinkedin' => 'https://www.linkedin.com/in/jquevedo82/',
-		'mygithub' => 'https://github.com/jquevedo82',		
+	    'contac_information' => [
+		'twitter' => '@jquevedo82',
+		'linkedin' => 'https://www.linkedin.com/in/jquevedo82',
+		'github' => 'https://github.com/jquevedo82',		
             ]
         ];
     }
-    	/* Workplace */ 
-    public function getCurrentWorkplace()
+
+    /* Workplace */ 
+    public function getCurrentWorkplace(): array
     {
         return [
-            'workplace' => ['company' => 'NEUMEN',
-                'pageWeb' => 'https://autoneumen.com/neumen/',
-                'position' => 'Full Stack Developer',    
-            ]
+	    'company' => 'NEUMEN',
+            'website' => 'https://autoneumen.com/neumen/',
+            'position' => 'Full Stack Developer',    
         ];
     }
-    	/* Primary skills/knowledge */
-    public function getDailyKnowledge()
+
+    /* Primary skills/knowledge */
+    public function getDailyKnowledge(): array
     {
-        return ['Php','Javascript','Laravel','Angular','NodoJs','NestJs','Mysql'];
+        return ['PHP', 'Javascript', 'Laravel', 'Angular', 'NodeJs', 'NestJs', 'Mysql'];
     }
-	/* Relevant goal */
-    public function getFutureGoal()
+
+    /* Relevant goal */
+    public function getGoal(): string
     {
-        return 'To contribute to open source.';
+        return 'Contribute to the open source movement.';
     }
 }
 ```
