@@ -12,6 +12,8 @@ class About extends Me
                 'title' => 'Ingeniero en Informatica',
                 'nationality' => 'VEN',
                 'resident' => 'Buenos Aires. ARG',
+		'mytwitter' => '@jquevedo82',
+		'mylinkedin' => 'https://www.linkedin.com/in/jquevedo82/'
             ]
         ];
     }
