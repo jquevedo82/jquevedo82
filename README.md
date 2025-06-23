@@ -36,7 +36,7 @@ class About extends Me
     /* Primary skills/knowledge */
     public function getDailyKnowledge(): array
     {
-        return ['PHP', 'Javascript', 'Laravel', 'Angular', 'NodeJs', 'NestJs', 'Mysql'];
+        return ['PHP', 'Javascript', 'Laravel', 'Angular', 'NodeJs', 'NestJs', 'Mysql', 'React', 'Otros'];
     }
 
     /* Relevant goal */
